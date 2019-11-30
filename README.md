@@ -15,6 +15,16 @@ Finally, we train STNE with only refined samples given by HRSS.
 
 For stage 1-3, we can run:
 
+# Model Training
 ```
 python train.py
 ```
+
+# select more meaningful paths
+
+```
+python select_path_train.py
+python delete_padding_path.py
+```
+
+# Train STNE with selected paths
