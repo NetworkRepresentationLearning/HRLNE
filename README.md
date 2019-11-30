@@ -15,6 +15,6 @@ Finally, we train STNE with only refined samples given by HRSS.
 
 For stage 1-3, we can run:
 
-'''
+```
 python train.py
-'''
+```
